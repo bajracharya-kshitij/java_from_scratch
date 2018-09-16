@@ -34,16 +34,13 @@
 The following table summarizes the access modifiers with their scope:
     <table>
         <th>
-            <td>Access Modifier</td>
             <td>Same Class</td>
-            <td>Same Package Sub Class</td>
-            <td>Same Package Non-sub Class</td>
+            <td>Same Package</td>
             <td>Different Package Sub Class</td>
             <td>Different Package Non-sub Class</td>
         </th>
         <tr>
             <td>Public</td>
-            <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -54,12 +51,10 @@ The following table summarizes the access modifiers with their scope:
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
-            <td>Yes</td>
             <td>No</td>
         </tr>
         <tr>
             <td>Default</td>
-            <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>No</td>
@@ -68,7 +63,6 @@ The following table summarizes the access modifiers with their scope:
         <tr>
             <td>Private</td>
             <td>Yes</td>
-            <td>No</td>
             <td>No</td>
             <td>No</td>
             <td>No</td>
