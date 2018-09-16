@@ -34,10 +34,10 @@
 The following table summarizes the access modifiers with their scope:
     <table>
         <th>
-            <td>Same Class</td>
-            <td>Same Package</td>
-            <td>Different Package Sub Class</td>
-            <td>Different Package Non-sub Class</td>
+            <td>Class</td>
+            <td>Package</td>
+            <td>Sub Class</td>
+            <td>World</td>
         </th>
         <tr>
             <td>Public</td>
