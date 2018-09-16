@@ -9,14 +9,14 @@
 </ol>
 
 <ol>
-	<li>Classes:
+	<li><strong>Classes</strong>:<br/>
 		On a class level, there are two non access modifiers:
 		<ul>
 			<li>final</li>
 			<li>abstract</li>
 		</ul>
 	</li>
-	<li>Members:
+	<li><strong>Members</strong>:<br/>
 		Following are common non access modifiers on members:
 		<ul>
 			<li>final</li>
