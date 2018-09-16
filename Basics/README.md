@@ -13,17 +13,10 @@
 <ul>
 	<li>
 		<h5>Simple</h5>
-
-		<p>
-			Java has a set of features that makes it easy to learn and use. Java omits many rarely used, poorly understood, confusing features of C++ like header files, pointer arithmetic, structures, operator overloading, virtual base classes.
-		</p>
+		<p>Java has a set of features that makes it easy to learn and use. Java omits many rarely used, poorly understood, confusing features of C++ like header files, pointer arithmetic, structures, operator overloading, virtual base classes.</p>
 	</li>
-
-	<li>
+        <li>
 		<h5>Object Oriented</h5>
-
-		<p>
-			Java is an object oriented programming language. As with all OO languages, it focuses on the objects rather than the actions.
-		</p>
+		<p>Java is an object oriented programming language. As with all OO languages, it focuses on the objects rather than the actions.</p>
 	</li>
 </ul>
