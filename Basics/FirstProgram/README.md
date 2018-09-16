@@ -1,3 +1,5 @@
+<h1>First Program</h1>
+
 ```
 class FirstProgram {
 
@@ -28,7 +30,7 @@ For a detailed description on non access modifiers, see [here](../../NonAccessMo
 	
 > Any class can have a main method. For example, both Class(1) and Class(2) classes can have a main method, but only one will be called once when your program is ran.<br/><br/>
 > When you run the program, for example, java class1 - you tell Java that you wish to START the program using the main method of Class(1). This can be confusing, as you'd think Java would execute each and every main method it finds, but that's not the case. Once Java has found and ran the main method in the class you specified, it will ignore all future main() methods it may find as it's already executed a main method for your program.<br/><br/>
-> You can think of main() as the door that leads into your program, once in, the computer won't try to come in again, it's already in the program! I hope this helps you a bit.
+> You can think of main() as the door that leads into your program, once in, the computer won't try to come in again, it's already in the program!
 </p>
 
 For an indepth explanation, see [this link](http://csis.pace.edu/~bergin/KarelJava2ed/ch2/javamain.html).
