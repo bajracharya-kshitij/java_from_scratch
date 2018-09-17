@@ -1,7 +1,7 @@
 <h1>Non Access Modifiers</h1>
 
 <p>Non access modifiers provide special properties to variables, methods and classes and alter their behavior. There are two levels on which non access modifiers can be applied. They are:
-</p>	
+</p>
 
 <ol>
 	<li>Classes</li>
@@ -37,6 +37,7 @@
 <strong>final method</strong>: A method when set to final cannot be overriden by any child class. The final modifier prevents a method from being modified in a child class.<br/>
 <strong>final variable</strong>: Final variables are like constants. When a variable is set as final, its value cannot be changed. A final varibale can be explicitly initialized only once. A reference variable declared final can never be reassigned to refer to a different object. The data within the object can be changed. So the state of the object can be changed but not the reference.<br/>
 Mostly, final is used along with static to make the constant a class variable.
+</p>	
 
 <h4 id="abstract">abstract</h4>
 <p>This non access modifier can be applied on class as well as member level.<br/>
@@ -50,9 +51,9 @@ Abstract method ends with a semicolon.
 <strong>Note: Inner classes can be declared as static.</strong><br/>
 <strong>static variable</strong>: A static variable belongs to the class rather than objects/instances, hence they are also known as Class variables.<br/>
 <strong>static method</strong>: A static method belongs to the class rather than objects/instances. A static method can only access static data, it cannot access non-static data (instance variables).<br/>
-See examples of static <a herf="static/">here</a>.
 </p>
 
+See examples of static [here](static/).
 
 <h4 id="synchronized">synchronized</h4>
 <p>This non access modifier can be applied on methods only.<br/>
