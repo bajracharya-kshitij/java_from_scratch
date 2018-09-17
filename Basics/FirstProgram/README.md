@@ -10,11 +10,11 @@ class FirstProgram {
 }
 ```
 
-For a detailed description on access modifiers, see [here](../../AccessModifiers/README.md).
+For a detailed description on access modifiers, see [here](../../AccessModifiers/).
 <p>The access modifier <strong>public</strong> means that it can be accessed from anywhere in the program. This includes within the same package or even outside of it.
 </p>
 
-For a detailed description on non access modifiers, see [here](../../NonAccessModifiers/README.md).
+For a detailed description on non access modifiers, see [here](../../NonAccessModifiers/).
 <p>The non access modifier <strong>static</strong> means that the method belongs to the class and not to an object/instance. Hence, the method can be invoked without any object instantiation.</p>
 	
 [When is java main method called?](https://stackoverflow.com/questions/10493990/when-is-java-main-method-called)
