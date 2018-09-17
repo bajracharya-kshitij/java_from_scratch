@@ -7,14 +7,12 @@ class ExceptionDemo {
     for(int n : numbers) {
       System.out.print(n + " ");
     }
-    System.out.println("");
-    System.out.println("");
+    System.out.println("\n");
 
     try {
       System.out.println("Finding the third item in the array...");
       int third_item = numbers[2];
-      System.out.println("The third item in the array is " + third_item);
-      System.out.println("");
+      System.out.println("The third item in the array is " + third_item + "\n");
 
       System.out.println("Finding the eleventh item in the array...");
       int eleventh_item = numbers[10];
