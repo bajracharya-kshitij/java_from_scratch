@@ -12,7 +12,7 @@
 	<li><strong>Classes</strong>:<br/>
 		On a class level, there are two non access modifiers:
 		<ul>
-			<li>final</li>
+			<li><a href="#final">final</a></li>
 			<li>abstract</li>
 		</ul>
 	</li>
@@ -31,7 +31,7 @@
 	</li>
 </ol>
 
-<h4>final</h4>
+<h4 id="final">final</h4>
 <p>This non access modifier can be applied on class as well as member level.<br/>
 <strong>final class</strong>: When a class is set to final, it cannot be extended by any other class. It is the final segment of class hierarchy of the program<br/>
 <strong>final method</strong>: A method when set to final cannot be overriden by any child class. The final modifier prevents a method from being modified in a child class.<br/>
