@@ -17,6 +17,9 @@ class StaticVariableDemo {
 
 		Subject gk = new Subject("General Knowledge");
 		gk.printSubjectDetails();
+
+		System.out.println("Checking English again...");
+		english.printSubjectDetails();
 	}
 }
 
