@@ -1,6 +1,9 @@
 class StaticVariableDemo {
 
 	public static void main(String[] args) {
+
+		System.out.println("All subjects will have a full marks of " + Subject.fullMarks);
+
 		Subject english = new Subject("English");
 		english.printSubjectDetails();
 		
@@ -9,6 +12,7 @@ class StaticVariableDemo {
 		
 		Subject computer = new Subject("Computer");
 		computer.changeFullMarks();
+		System.out.println("All subjects henceforth will have a full marks of " + Subject.fullMarks);
 		computer.printSubjectDetails();
 
 		Subject gk = new Subject("General Knowledge");
