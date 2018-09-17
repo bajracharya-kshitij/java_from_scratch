@@ -1,4 +1,7 @@
-<h1>Static Variable Demo</h1>
+[static variables](#static-variable-demo)<br/>
+[static methods](#static-method-demo)
+
+# Static Variable Demo
 
 ```
 class StaticVariableDemo {
@@ -66,3 +69,61 @@ Before any objects were created, we accessed the class variable fullMarks using 
 All subjects will have a full marks of 100
 ```
 Now, all subjects created henceforth have a full marks of 100 up until the point where we decided to update the full marks using `changeFullMarks`. After this, the value of `fullMarks` is updated to 50. So, all subjects created after this have a full marks of 50. And since there is only one copy for this variable, if we check the value of the subject `English` again, this time we will get back 50 and not 100. So, `fullMarks` is not the value associated with `English` or `Computer`; it is the value associated with the class `Subject`.
+
+
+# Static Method Demo
+
+```
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+class StaticMethodDemo {
+  
+  public static void main(String[] args) {
+    String dateString1 = "1970-01-01";
+    DateFormatter.getFormattedDate(dateString1);
+    
+    String dateString2 = "2018-09-17";
+    DateFormatter.getFormattedDate(dateString2);
+  }
+	
+}
+
+class DateFormatter {
+
+  private static final List<String> MONTH_NAMES = Collections.unmodifiableList(
+                                    Arrays.asList("January", "February", "March", "April", 
+                                                  "May", "June", "July", "August",
+                                                  "September", "October", "November", "December"));
+
+  private static ArrayList<String> getDateList(String dateString) {
+    Pattern pattern = Pattern.compile("(\\d{4})-(\\d{1,2})-(\\d{1,2})");
+    Matcher match = pattern.matcher(dateString);
+    ArrayList<String> dateList = new ArrayList<String>();
+    while(match.find()) {
+      for(int i=1; i<=match.groupCount(); i++) {
+        dateList.add(match.group(i));
+      }
+    }
+    return dateList;
+  }
+
+  static void getFormattedDate(String dateString) {
+    ArrayList<String> dateList = getDateList(dateString);
+    System.out.println("The formatted date is: " + 
+                        MONTH_NAMES.get(Integer.parseInt(dateList.get(1))-1) + " " + 
+                        Integer.parseInt(dateList.get(2)) + ", " +
+                        dateList.get(0));
+  }
+}
+```
+<h3>Result</h3>
+
+```
+The formatted date is: January 1, 1970
+The formatted date is: September 17, 2018
+```
