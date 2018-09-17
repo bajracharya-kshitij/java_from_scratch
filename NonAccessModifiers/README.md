@@ -50,7 +50,9 @@ Abstract method ends with a semicolon.
 <strong>Note: Inner classes can be declared as static.</strong><br/>
 <strong>static variable</strong>: A static variable belongs to the class rather than objects/instances, hence they are also known as Class variables.<br/>
 <strong>static method</strong>: A static method belongs to the class rather than objects/instances. A static method can only access static data, it cannot access non-static data (instance variables).<br/>
+See examples of static <a herf="static/">here</a>.
 </p>
+
 
 <h4 id="synchronized">synchronized</h4>
 <p>This non access modifier can be applied on methods only.<br/>
