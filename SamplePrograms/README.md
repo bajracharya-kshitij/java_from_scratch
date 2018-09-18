@@ -30,3 +30,7 @@ Enter second number:
 
 There are no common even factors between 9 and 89
 ```
+
+<h1>Water Jug Problem</h1>
+
+<p>You have two empty water jugs in your hands. One holds 3 gallons of water, the other holds 5 gallons of water. You need to use these two jugs to measure exactly 4 gallons of water.</p>
